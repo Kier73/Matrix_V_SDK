@@ -7,10 +7,12 @@ The system is built on a 16-prime Residue Number System (RNS), providing a 310-b
 - **Homomorphism**: $f(A \times B) = f(A) \otimes f(B)$ in residue space.
 - **Verification**: Chinese Remainder Theorem (CRT) lifting for exact parity.
 
-### 2. MatrixOmega: Adaptive Dispatch
+### 2. Adaptive Dispatch
 `MatrixOmega` serves as the central controller, classifying matrices into structural categories and dispatching them to specialized engines.
 - **Structural Signals**: Samples $O(1)$ elements for sparsity, row variance, and tile periodicity.
 - **Dispatch Logic**: Favor $O(s^2)$ geometric projection over $O(k)$ dot products when redundancy is detected.
+
+**Docs folder contains detailed information on Matrix Multiplication Methods**
 
 ### 3. Complexity Reduction
 | Operation | Traditional | Matrix-V | Reduction |
