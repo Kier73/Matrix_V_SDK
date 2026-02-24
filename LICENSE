@@ -1,0 +1,15 @@
+Matrix-V SDK is dual-licensed under:
+
+- **Apache License, Version 2.0** (LICENSE-APACHE or http://www.apache.org/licenses/LICENSE-2.0)
+- **MIT license** (LICENSE-MIT or http://opensource.org/licenses/MIT)
+
+Users can choose either license at their option.
+
+---
+
+### Why Dual Licensing?
+
+The Matrix-V SDK is licensed under both the Apache 2.0 and MIT licenses to ensure maximum compatibility and protection for users:
+
+1. **Apache 2.0** provides explicit patent grants from contributors, protecting users against patent litigation.
+2. **MIT** is highly permissive and widely recognized, ensuring easy integration into any software ecosystem.

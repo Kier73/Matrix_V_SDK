@@ -1,0 +1,13 @@
+[package]
+name = "vl_core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+dashmap = "5.5.3"
+fxhash = "0.2.1"
+libc = "0.2.150"
+lazy_static = "1.4.0"
