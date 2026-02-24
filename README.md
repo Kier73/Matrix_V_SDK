@@ -55,16 +55,20 @@ The SDK uses a modular dependency architecture:
 ### Standard Installation (Recommended)
 You can install the SDK and its core dependencies via `pip`:
 ```bash
+# If installing locally from source
 pip install .
+
+# If installing from a future PyPI release
+pip install matrix_v
 ```
 
 To install with optional framework support:
 ```bash
 # For PyTorch support
-pip install ".[torch]"
+pip install "matrix_v[torch]"
 
 # For all framework bridges
-pip install ".[all]"
+pip install "matrix_v[all]"
 ```
 
 ### Backend Compilation
