@@ -2,7 +2,7 @@
 
 ## System Architecture
 
-### 1. The RNS Substrate (Residue Rings)
+### 1. RNS Navigation
 The system is built on a 16-prime Residue Number System (RNS), providing a 310-bit dynamic range. This allows for arithmetic exactness across $1024 \times 1024$ dense matrix products without floating-point drift or overflow risk.
 - **Homomorphism**: $f(A \times B) = f(A) \otimes f(B)$ in residue space.
 - **Verification**: Chinese Remainder Theorem (CRT) lifting for exact parity.
