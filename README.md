@@ -39,6 +39,8 @@ To run the Matrix-V SDK with full acceleration, the following environment is req
   - **Windows**: MinGW-w64 (required for Rust-to-DLL compilation).
   - **Linux/macOS**: GCC or Clang.
 
+  .dll formed from : https://github.com/Kier73/Generative-Memory
+
 ### Python Dependencies
 
 The SDK uses a modular dependency architecture:
