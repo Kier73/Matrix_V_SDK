@@ -23,5 +23,8 @@ jax = ["jax", "jaxlib"]
 all = ["torch", "numba", "jax", "jaxlib"]
 
 [tool.setuptools]
-packages = ["matrix_v_sdk", "matrix_v_sdk.vl", "matrix_v_sdk.extensions"]
+packages = {find = {include = ["matrix_v_sdk*"]}}
 package-dir = {"" = "."}
+
+[tool.setuptools.package-data]
+"*" = ["*.dll", "*.so", "*.dylib"]
