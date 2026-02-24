@@ -2,9 +2,15 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.dll
+*.so
+*.dylib
+*.exe
+*.lib
+*.a
+*.pdb
 
 # C extensions
-*.so
 
 # Distribution / packaging
 bin/
